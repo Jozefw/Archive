@@ -1,0 +1,66 @@
+body {
+  background: #aaa;
+}
+
+td {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+}
+
+#nextMove{
+  position: absolute;
+  display: none;  
+  left: 200px;  
+  top: 130px;
+  border: 1px solid #ddd;
+  height: 30px;
+  width: 75px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 5px;
+  font-family: helvetica;
+  color: #fff;
+}
+
+#choice {
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    color: white;
+    line-height: 1.5em;
+}
+
+table {
+  margin-top: 20px;
+}
+
+#liveGame {
+  display : none;
+}
+
+#liveGameIndicator {
+  position: absolute;
+  display: none;
+  left: 200px;
+  top: 230px;
+  width: 80px;
+  height: 24px;
+  border: 1px solid #cc6600;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  font-family: helvetica;
+  font-size: .7em;
+  text-align: center;
+  color: #333;
+}
+
+/* attach this class to an element to make it unselectable */
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
